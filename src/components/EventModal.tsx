@@ -33,7 +33,7 @@ const EventModal: React.FC<EventModalProps> = ({ event, onSave, onClose }) => {
   } = useForm<EventForm>();
 
   const startDate = watch('startDate');
-  const startTime = watch('startTime');
+  //const startTime = watch('startTime');
   const endDate = watch('endDate');
 
   useEffect(() => {
